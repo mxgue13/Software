@@ -19,4 +19,5 @@ urlpatterns = [
 
     path('topics/', views.topicsPage, name="topics"),
     path('activity/', views.activityPage, name="activity"),
-]
+    path('schedule_event/', views.schedule_event, name='schedule-event'),
+    ]
